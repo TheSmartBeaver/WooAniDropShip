@@ -1,0 +1,36 @@
+{
+  "name": "woodropshop",
+  "version": "1.0.0",
+  "description": "Dropshipping woocomerce by TheSmartBeaver",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "WooBeaverShipping"
+  },
+  "keywords": [
+    "dropshipping",
+    "woocommerce",
+    "animal"
+  ],
+  "author": "TheSmartBeaver",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "^3.5.6",
+    "apollo-boost": "^0.4.9",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-link-http": "^1.5.17",
+    "express": "^4.17.1",
+    "graphql": "^15.8.0",
+    "graphql-tag": "^2.12.6",
+    "isomorphic-unfetch": "^3.1.0",
+    "next": "^12.0.4",
+    "nodemon": "^2.0.15",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "woocommerce-api": "^1.5.0"
+  }
+}
