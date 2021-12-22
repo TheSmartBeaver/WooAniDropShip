@@ -22,7 +22,10 @@ const Product = withRouter((props) => {
               alt="Product image"
               srcSet={product.image?.srcSet}
             />
-            <p className="card-text" dangerouslySetInnerHTML={{ __html: product.description }}></p>
+            <p
+              className="card-text"
+              dangerouslySetInnerHTML={{ __html: product.description }}
+            ></p>
           </div>
         </div>
       ) : (

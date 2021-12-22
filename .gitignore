@@ -106,3 +106,5 @@ dist
 #WooAniDrop
 private_keys/
 package-lock.json
+
+.vercel
