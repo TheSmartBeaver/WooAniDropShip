@@ -1,4 +1,5 @@
 import Link from "next/dist/client/link"
+import AddToCartButton from "./cart/AddToCartButton"
 
 const Product = (props) => {
   const { product } = props
@@ -19,10 +20,13 @@ const Product = (props) => {
             ></div>
             <div
               className="content"
-              dangerouslySetInnerHTML={{ __html: product.price_html }}
+              dangerouslySetInnerHTML={{ __html: product.price }}
             ></div>
           </a>
         </Link>
+        <div className="card-body text-center">
+          <AddToCartButton product={ product }/>
+        </div>
       </div>
     </div>
   )

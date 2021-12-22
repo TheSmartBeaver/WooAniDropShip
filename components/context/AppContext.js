@@ -9,7 +9,7 @@ export const AppProvider = (props) => {
       let cartData = localStorage.getItem("ani-com-cart")
       cartData = null !== cartData ? JSON.parse(cartData) : ""
       // setCart(cartData)
-      setCart({ product: '123'});
+      setCart({ product: "123" })
     }
   }, [])
 
